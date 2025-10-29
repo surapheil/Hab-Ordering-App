@@ -1,0 +1,65 @@
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: black;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: visible;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.habeshaLogo {
+  display: flex;
+  align-items: center;
+}
+
+.habeshaImg {
+  width: 45px;
+  height: auto;
+  object-fit: contain;
+}
+
+.topright {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.15);
+}
+
+.habeshaLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.habeshaLogo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
