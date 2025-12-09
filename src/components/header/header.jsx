@@ -2,10 +2,13 @@ import logo from'../../assets/21+Logo - Habesha - Vertical.png'
 import notification from '../../assets/ChatGPT Image Oct 23, 2025, 11_25_37 PM.png'
 import cart from '../../assets/ChatGPT Image Oct 23, 2025, 11_42_35 PM.png'
 import '../styles/top.css';
+import useHeaderScroll from './HeaderScroll';
 function Header(){
     return(
+        <>
+        <useHeaderScroll/>
         <div className='topHeader'>
-            <div className='habeshaLogo icon'>
+            <div className='habeshaLogo'>
                 <img src={logo} alt="habesha logo" className='habeshaImg'/>
             </div>
             <div className='topright'>
@@ -17,6 +20,7 @@ function Header(){
                 </div>
             </div>
         </div>
+        </>
         
 
 

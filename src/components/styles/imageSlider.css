@@ -1,62 +1,3 @@
-/* .slider-container {
-  width: 100%;
-  height: 80vh;
-  max-width: 100%;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  background-color: #000;
-  aspect-ratio: 16 / 9;
-}
- 
-
-
-.slide-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  z-index: 0;
-}
-
-
-
-
-.slide-image.active {
-  opacity: 1;
-  z-index: 1;
-}
-
-
-@media (min-width: 1200px) {
-  .slider-container {
-    height: 450px; 
-    border-radius: 12px;
-  }
-}
-
-
-@media (max-width: 991px) {
-  .slider-container {
-    aspect-ratio: 16 / 9;
-    border-radius: 10px;
-  }
-}
-
-
-@media (max-width: 600px) {
-  .slider-container {
-    aspect-ratio: 1 / 1; 
-    border-radius: 8px;
-  }
-} */
-
-
 /* imageSlider.css */
 
 .slider-container {
@@ -64,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh; /* now follows .photoSlider’s height */
+  height: 65vh; /* now follows .photoSlider’s height */
   /* position: relative; */
   z-index: -1;
   overflow: hidden;
@@ -72,12 +13,6 @@
   background-color: #000;
 }
 
-/* Make it taller on desktop */
-@media (min-width: 1024px) {
-  .photoSlider {
-    height: calc(150vh - 10vh); /* or simply 150vh if you want it larger */
-  }
-}
 
 .slide-image {
   position: absolute;
@@ -112,3 +47,4 @@
     border-radius: 8px;
   }
 } 
+
